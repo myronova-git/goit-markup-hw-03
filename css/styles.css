@@ -57,7 +57,7 @@ ol {
     display: flex;
 }
 
-.header-cont {
+.header-header .container {
     display: flex;
     align-items: center;
 }
@@ -186,6 +186,7 @@ ol {
     height: 56px;
     border: none;
     margin: 0 auto;
+    min-width: 169px
 }
 
 .hero-btn:hover,
@@ -217,7 +218,6 @@ ol {
 }
 
 .advantages-title {
-    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -241,6 +241,7 @@ ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .advantages-list-text {
@@ -379,10 +380,6 @@ ol {
 
 .logo {
     display: inline-block;
-    margin-bottom: 16px;
-}
-
-.footer-logo-cont {
     margin-bottom: 16px;
 }
 

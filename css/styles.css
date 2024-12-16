@@ -67,7 +67,8 @@ ol {
 /* #region === Header === */
 
 .header-header {
-    border-bottom: 1px solid #e7e9fc;  
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
 
 .header-cont {
@@ -90,7 +91,7 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding-right: 76px;
+    margin-right: 76px
 }
 
 .logo-style-header {

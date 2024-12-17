@@ -57,11 +57,6 @@ ol {
     display: flex;
 }
 
-.header-header .container {
-    display: flex;
-    align-items: center;
-}
-
 .nav-header,
 .address-header {
     display: flex;
@@ -83,7 +78,6 @@ ol {
 .logo-style-header {
     color: #2e2f42;
 }
-
 
 .nav-list {
     display: flex;

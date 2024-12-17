@@ -57,11 +57,13 @@ ol {
     display: flex;
 }
 
+
 .nav-header,
 .address-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-items: baseline
 }
 
 .logo {
@@ -72,7 +74,7 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
+    margin-right: 76px;  
 }
 
 .logo-style-header {
@@ -81,7 +83,6 @@ ol {
 
 .nav-list {
     display: flex;
-    align-items: center;
     gap: 40px;
 }
 

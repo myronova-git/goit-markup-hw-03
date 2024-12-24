@@ -57,13 +57,15 @@ ol {
     display: flex;
 }
 
-
 .nav-header,
 .address-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    align-items: baseline
+}
+
+.container .header-header {
+    display: flex;
 }
 
 .logo {
@@ -74,7 +76,9 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;  
+    margin-right: 76px; 
+    /* padding: 0 0; */
+    align-items: center;
 }
 
 .logo-style-header {

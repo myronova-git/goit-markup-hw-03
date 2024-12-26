@@ -76,7 +76,7 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px; 
+    margin-right:76px;
     /* padding: 0 0; */
     align-items: center;
 }
@@ -111,11 +111,12 @@ ol {
 .address-header {
     font-style: normal;
     margin-left: auto;
+    gap: 40px;
 }
 
 .address-list {
     display: flex;
-    gap: 40px;
+    
     align-items: center;
 }
 

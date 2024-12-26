@@ -64,7 +64,7 @@ ol {
     justify-content: space-between;
 }
 
-.container .header-header {
+.header-header .container  {
     display: flex;
 }
 

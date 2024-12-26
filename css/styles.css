@@ -1,8 +1,23 @@
 body {
     font-family: "Roboto", sans-serif;
+    font-size: 16px;
     color: #434455;
     background-color: #FFFFFF;
     
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 a {
@@ -11,6 +26,8 @@ a {
 
 ul, ol {
     list-style-type: none;
+    margin: 0;   /* vvv */
+    padding: 0; /* vvv */
 }
 
 button {
@@ -30,8 +47,7 @@ h4,
 h5,
 h6,
 p {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 ul,
@@ -43,29 +59,28 @@ ol {
 }
 
 .container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 /* #region === Header === */
 
 .header-header {
     border-bottom: 1px solid #e7e9fc;
-    display: flex;
 }
 
-.nav-header,
-.address-header {
+.nav-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* margin-right: 76px; */
 }
 
-.header-header .container  {
+
+.header-header.container  {
     display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -76,9 +91,11 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right:76px;
-    /* padding: 0 0; */
-    align-items: center;
+}
+
+.logo-header {
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .logo-style-header {
@@ -87,10 +104,13 @@ ol {
 
 .nav-list {
     display: flex;
+    align-items: center;
     gap: 40px;
+    
 }
 
-.nav-item {}
+.nav-item {
+}
 
 .nav-item-link {
     font-weight: 500;
@@ -98,9 +118,9 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
     display: block;
+    padding: 24px 0;
 }
 
 .nav-item-link:hover,
@@ -111,13 +131,12 @@ ol {
 .address-header {
     font-style: normal;
     margin-left: auto;
-    gap: 40px;
 }
 
 .address-list {
     display: flex;
-    
     align-items: center;
+    gap: 40px;
 }
 
 .address-item {
@@ -129,6 +148,7 @@ ol {
 }
 
 .address-item-link {
+    display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -197,20 +217,6 @@ ol {
 
 
 /* #region === Section 1 "Advantages" === */
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .advantages {
     padding-top: 120px;
@@ -378,7 +384,7 @@ ol {
     padding-bottom: 100px;
 }
 
-.logo {
+.logo-footer {
     display: inline-block;
     margin-bottom: 16px;
 }

@@ -70,18 +70,17 @@ ol {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.header-header .container {
+    /* display: flex; */
+    align-items: center;
+}
+
 .nav-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin-right: 76px; */
 }
 
-
-.header-header .container  {
-    display: flex;
-    align-items: center;
-}
 
 .logo {
     font-family: "Raleway", sans-serif;

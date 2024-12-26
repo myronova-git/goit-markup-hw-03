@@ -78,7 +78,7 @@ ol {
 }
 
 
-.header-header.container  {
+.header-header .container  {
     display: flex;
     align-items: center;
 }
